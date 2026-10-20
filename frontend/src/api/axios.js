@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api", // Aapka backend URL
+  baseURL: "https://airbnb-clone-hy9g.onrender.com/api", // Aapka Live Backend URL
 });
 
 export default api;
